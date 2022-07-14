@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Benchmarks.App", "Benchmarks.App\Benchmarks.App.csproj", "{48693C51-860B-4D41-939B-805A1A486950}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Benchmarks.JsonOperators", "Benchmarks.JsonOperators\Benchmarks.JsonOperators.csproj", "{118584FB-AD6E-475C-AB8D-E47992221EB5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F27F349A-C354-466A-8E97-0397DA2B1308}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48693C51-860B-4D41-939B-805A1A486950}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48693C51-860B-4D41-939B-805A1A486950}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48693C51-860B-4D41-939B-805A1A486950}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48693C51-860B-4D41-939B-805A1A486950}.Release|Any CPU.Build.0 = Release|Any CPU
+		{118584FB-AD6E-475C-AB8D-E47992221EB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{118584FB-AD6E-475C-AB8D-E47992221EB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{118584FB-AD6E-475C-AB8D-E47992221EB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{118584FB-AD6E-475C-AB8D-E47992221EB5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {13F75641-ED3B-4FA1-8FE6-F148738CA0B0}
+	EndGlobalSection
+EndGlobal

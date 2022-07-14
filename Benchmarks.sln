@@ -5,7 +5,12 @@ VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Benchmarks.App", "Benchmarks.App\Benchmarks.App.csproj", "{48693C51-860B-4D41-939B-805A1A486950}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmarks.JsonOperators", "Benchmarks.JsonOperators\Benchmarks.JsonOperators.csproj", "{118584FB-AD6E-475C-AB8D-E47992221EB5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Benchmarks.JsonOperators", "Benchmarks.JsonOperators\Benchmarks.JsonOperators.csproj", "{118584FB-AD6E-475C-AB8D-E47992221EB5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F27F349A-C354-466A-8E97-0397DA2B1308}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

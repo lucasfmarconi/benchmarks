@@ -14,6 +14,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmarks.ByteArrayConverters", "Benchmarks.ByteArrayConverters\Benchmarks.ByteArrayConverters.csproj", "{E58A90DB-C66F-4771-9CDD-FCF2B599E35F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmarks.ForeachAndLinqIterations", "Benchmarks.ForeachAndLinqIterations\Benchmarks.ForeachAndLinqIterations.csproj", "{5293F31E-CF13-4207-88E8-79C48BEF3056}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +34,10 @@ Global
 		{E58A90DB-C66F-4771-9CDD-FCF2B599E35F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E58A90DB-C66F-4771-9CDD-FCF2B599E35F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E58A90DB-C66F-4771-9CDD-FCF2B599E35F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5293F31E-CF13-4207-88E8-79C48BEF3056}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5293F31E-CF13-4207-88E8-79C48BEF3056}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5293F31E-CF13-4207-88E8-79C48BEF3056}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5293F31E-CF13-4207-88E8-79C48BEF3056}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

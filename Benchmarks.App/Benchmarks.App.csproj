@@ -10,6 +10,7 @@
 	</ItemGroup>
 	<ItemGroup>
 	  <ProjectReference Include="..\Benchmarks.ByteArrayConverters\Benchmarks.ByteArrayConverters.csproj" />
+	  <ProjectReference Include="..\Benchmarks.ForeachAndLinqIterations\Benchmarks.ForeachAndLinqIterations.csproj" />
 	  <ProjectReference Include="..\Benchmarks.JsonOperators\Benchmarks.JsonOperators.csproj" />
 	</ItemGroup>
 </Project>

@@ -9,6 +9,7 @@
 	  <PackageReference Include="BenchmarkDotNet" Version="0.13.1" />
 	</ItemGroup>
 	<ItemGroup>
+	  <ProjectReference Include="..\Benchmarks.ByteArrayConverters\Benchmarks.ByteArrayConverters.csproj" />
 	  <ProjectReference Include="..\Benchmarks.JsonOperators\Benchmarks.JsonOperators.csproj" />
 	</ItemGroup>
 </Project>

@@ -2,6 +2,7 @@
 using System.Text.Json.Nodes;
 
 namespace Benchmarks.JsonOperators;
+
 public class JsonObjectSystemTextJsonStrategy
 {
 

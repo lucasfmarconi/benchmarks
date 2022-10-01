@@ -8,10 +8,13 @@ internal class Program
     static void Main(string[] args)
     {
 #if DEBUG
-        new Benchmark().AddNodeWithSystemTextJsonStrategy();
-        new Benchmark().AddNodeWithNewtonsoftJsonStrategy();
+        new JsonMergeBenchmark().AddNodeWithSystemTextJsonStrategy();
+        new JsonMergeBenchmark().AddNodeWithNewtonsoftJsonStrategy();
+        new ByteArrayValueSetBenchmark().ConvertByteArrayUsingReflection();
+        new ByteArrayValueSetBenchmark().ConvertByteArrayManually();
 #else
-        BenchmarkRunner.Run<Benchmark>();
+        BenchmarkRunner.Run<JsonMergeBenchmark>();
+        BenchmarkRunner.Run<ByteArrayValueSetBenchmark>();
 #endif
         Console.ReadKey();
     }

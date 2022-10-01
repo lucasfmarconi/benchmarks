@@ -5,7 +5,7 @@ namespace Benchmarks.App;
 
 [MemoryDiagnoser]
 [RankColumn]
-public class Benchmark
+public class JsonMergeBenchmark
 {
     private const string JsonContentA =
         "{\"machineName\": \"56 Kampf CLS\",\"mainPOrderName\": \"0801998-S\",\"partOrderName\": \"0801998\",\"qsv\": \"7185-846-B5\",\"packs\": 4094000,\"materialName\": \"R1506-583\",\"plannedQuantity\": 185185}";

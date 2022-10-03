@@ -11,8 +11,7 @@ public class IterateForeach : IIterate
         foreach (var value in doubleList)
         {
             var doubleString = value.ToString(CultureInfo.InvariantCulture);
-            //Console.WriteLine($"Iteration item {doubleString} coming from {nameof(IterateForeach)}");
-            var a = doubleString;
+            var yepToDoNothing = doubleString;
         }
     }
 }

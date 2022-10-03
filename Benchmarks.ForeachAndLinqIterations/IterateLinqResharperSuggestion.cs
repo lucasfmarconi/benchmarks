@@ -9,8 +9,7 @@ public class IterateLinqResharperSuggestion : IIterate
     {
         foreach (var doubleString in doubleList.Select(value => value.ToString(CultureInfo.InvariantCulture)))
         {
-            //Console.WriteLine($"Iteration item {doubleString} coming from {nameof(IterateForeach)}");
-            var a = doubleString;
+            var yepToDoNothing = doubleString;
         }
     }
 }

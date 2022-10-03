@@ -13,8 +13,8 @@ internal class Program
         new ByteArrayValueSetBenchmark().ConvertByteArrayUsingReflection();
         new ByteArrayValueSetBenchmark().ConvertByteArrayManually();
 #else
-        //BenchmarkRunner.Run<JsonMergeBenchmark>();
-        //BenchmarkRunner.Run<ByteArrayValueSetBenchmark>();
+        BenchmarkRunner.Run<JsonMergeBenchmark>();
+        BenchmarkRunner.Run<ByteArrayValueSetBenchmark>();
         BenchmarkRunner.Run<IterateForeachLinqBenchmark>();
 #endif
         Console.ReadKey();

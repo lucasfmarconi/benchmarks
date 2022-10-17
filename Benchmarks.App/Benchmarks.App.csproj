@@ -12,5 +12,6 @@
 	  <ProjectReference Include="..\Benchmarks.ByteArrayConverters\Benchmarks.ByteArrayConverters.csproj" />
 	  <ProjectReference Include="..\Benchmarks.ForeachAndLinqIterations\Benchmarks.ForeachAndLinqIterations.csproj" />
 	  <ProjectReference Include="..\Benchmarks.JsonOperators\Benchmarks.JsonOperators.csproj" />
+	  <ProjectReference Include="..\Benchmarks.Regex\Benchmarks.Regex.csproj" />
 	</ItemGroup>
 </Project>

@@ -7,10 +7,13 @@ internal class Program
 {
     static void Main(string[] args)
     {
-        BenchmarkRunner.Run<JsonMergeBenchmark>();
-        BenchmarkRunner.Run<ByteArrayValueSetBenchmark>();
-        BenchmarkRunner.Run<IterateForeachLinqBenchmark>();
+        //new RegexBenchmark().ExtractUsingRegex();
+        //new RegexBenchmark().ExtractUsingCSharp();
+        //BenchmarkRunner.Run<JsonMergeBenchmark>();
+        //BenchmarkRunner.Run<ByteArrayValueSetBenchmark>();
+        //BenchmarkRunner.Run<IterateForeachLinqBenchmark>();
         BenchmarkRunner.Run<RegexBenchmark>();
+        //BenchmarkRunner.Run<ForeachAsyncFireAndForgetBenchmark>();
         Console.ReadKey();
     }
 }

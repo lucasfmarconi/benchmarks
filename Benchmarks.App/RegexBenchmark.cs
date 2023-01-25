@@ -1,6 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
 using BenchmarkDotNet.Attributes;
-using Benchmarks.Regex;
 
 namespace Benchmarks.App;
 
@@ -8,23 +7,21 @@ namespace Benchmarks.App;
 [RankColumn]
 public class RegexBenchmark
 {
-    [ParamsSource(nameof(ValuesForFileName))]
-    public string FileName { get; set; }
-
-    public IEnumerable<string> ValuesForFileName => new[] { "Accumsan.tiff",
-        "InFaucibus.avi",
-        "NuncCommodoPlacerat.jpeg"
-    };
+    public string StringToExtractPattern = "P2WebService/service/orders/orderinfo?p2ReelId={injector.frompayload[.p2ReelId]}";
 
     [Benchmark]
-    public void FilterUsingRegex()
+    public void ExtractUsingRegex()
     {
-        new RegexUsage().Filter(ValuesForFileName);
+        var stringArray = System.Text.RegularExpressions.Regex.Split(StringToExtractPattern, @"=");
+        if (stringArray.Length > 0)
+            StringToExtractPattern = stringArray[0];
     }
 
     [Benchmark]
-    public void FilterUsingOnlyLinq()
+    public void ExtractUsingCSharp()
     {
-        new OnlyLinqUsage().Filter(ValuesForFileName);
+        var indexOfDelimiter = StringToExtractPattern.IndexOf("=", StringComparison.Ordinal);
+        if (indexOfDelimiter >= 0)
+            StringToExtractPattern = StringToExtractPattern[..(indexOfDelimiter + 1)];
     }
 }
